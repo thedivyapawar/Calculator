@@ -1,0 +1,83 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, sans-serif;
+}
+
+
+body {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-blue-calculator-notepad-color-background_260672-4055.jpg?w=826");
+  background-size :100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.heading{
+  
+  position: relative;
+  
+
+}
+
+.heading h1{
+  padding: 50px;
+  
+  font-family: cursive;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 6s;
+  transition-delay: 1s;
+  
+}
+
+.container {
+ margin :0px 300px 0px 0px;
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: rgb(52, 50, 50);
+  box-shadow: 0 5px 10px rgba(249, 248, 248, 0.05);
+}
+.input {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  background-color: rgb(52, 50, 50) ;
+  color: white;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: black ;
+  color: #fff;
+  
+}
+.buttons button:active {
+  transform: scale(0.99);
+ 
+}
+.operator {
+  color:#2f9fff;
+  background: #1e1919;
+}
